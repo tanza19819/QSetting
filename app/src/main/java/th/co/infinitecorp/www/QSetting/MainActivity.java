@@ -337,7 +337,6 @@ public class MainActivity extends AppCompatActivity {
                                 Cookies.SaveEmployeeInfo(MainActivity.this,employeeInfoList);
                                 EmployeeInfo();
                                 Toast.makeText(MainActivity.this,"บันทึกข้อมูลพนักงานสำเร็จ",Toast.LENGTH_LONG).show();
-                                Toast.makeText(MainActivity.this,"บันทึกข้อมูลพนักงานสำเร็จ",Toast.LENGTH_LONG).show();
                                 dialog.dismiss();
                             }
                     }
